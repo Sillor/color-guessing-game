@@ -1,8 +1,27 @@
-# React + Vite
+# Color Guessing Game
+A simple color guessing game built with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
+To get started with this project, follow these steps:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Sillor/react-api-project
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd react-api-project
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How To Play
+1. The Color Guessing Game presents a color on the screen.
+2. Pick the correct color from the options provided.
+3. If your choice matches the displayed color, you win!
+4. If not, restart the game and try again.
